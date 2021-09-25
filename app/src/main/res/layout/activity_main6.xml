@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Card"
+        android:textSize="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TableRow
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:background="@color/purple_500"
+            android:layout_margin="20dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/amd"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Plataforma de AMD"
+                android:textSize="10sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Tarjetas de Video" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:background="#C83636"
+            android:layout_margin="20dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/origin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Plataforma Origin"
+                android:textSize="10sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Plataforma de videojugos" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:background="#2196F3"
+            android:layout_margin="20dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/firefox"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Firefox"
+                android:textSize="10sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Browser de Firefox" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:background="#F3C521"
+            android:layout_margin="20dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/dropbox"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Dropbox"
+                android:textSize="10sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Mi canal de Twitch" />
+        </LinearLayout>
+    </TableRow>
+
+
+</TableLayout>
