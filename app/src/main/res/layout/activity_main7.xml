@@ -10,17 +10,16 @@
 
     <ImageView
         android:id="@+id/image1"
-        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/firefox"/>
+        android:src="@drawable/santamaria"/>
 
     <LinearLayout
         android:id="@+id/textPost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/image1"
-        android:layout_marginTop="-22dp"
+        android:layout_marginTop="-112dp"
         android:background="@drawable/rounded_corner"
         android:orientation="vertical">
 
@@ -40,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:textSize="20dp"
-            android:text="Informacion algo relevante de la foto que estamos agregando, pero por cuestiones de que la imagen no se acopla a los criterios del formato PNG se " />
+            android:text="Informacion algo relevante de la foto que estamos agregando, pero por cuestiones de que la imagen no se acopla a los criterios del formato PNG de la imagen" />
     </LinearLayout>
 
     <LinearLayout
